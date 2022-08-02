@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+.header-schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.h2-schedule {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #182c62;
+}
+
+.div-schedule {
+  background-color: #e4edf2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.invisible {
+  display: none;
+}
+
+.invisible-stadium {
+  display: none;
+}
+
+.div-date-stadium {
+  outline: 1px solid pink;
+}
+
+.div-teams {
+  width: 182px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  color: #4b5c68;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sec1-dateTime {
+  display: none;
+}
+
+.match-countries {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flag-name-home {
+  width: 100px;
+  text-align: right;
+}
+
+.flag-name-away {
+  width: 100px;
+  text-align: left;
+}
+
+.match-countries img {
+  width: 53px;
+  height: 37px;
+}
+
+@media (min-width: 750px) and (max-width: 999px) {
+  .invisible {
+    display: flex;
+  }
+
+  .section-1 {
+    justify-content: space-between;
+    padding: 0 98px 0 50px;
+  }
+
+  .div-schedule {
+    justify-content: space-between;
+    padding: 0 199px 0 50px;
+  }
+
+  .match-countries {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .sec1-dateTime {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: right;
+  }
+}
+
+@media (min-width: 1000px) {
+  .invisible {
+    display: flex;
+  }
+
+  .sec1-dateTime {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .section-1 {
+    justify-content: space-between;
+    padding: 0 158px 0 50px;
+  }
+
+  .invisible-stadium {
+    display: flex;
+    width: 150px;
+    justify-content: flex-start;
+  }
+
+  .stadium-header {
+    margin-left: -89px;
+  }
+
+  .div-schedule {
+    justify-content: space-between;
+    padding: 0 258px 0 50px;
+  }
+}

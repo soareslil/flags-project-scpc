@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+
+.div-notFound{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

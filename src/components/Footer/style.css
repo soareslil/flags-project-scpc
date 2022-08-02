@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+
+.footer-main{
+    background-color: #F6F7F7;
+    color: #4B5C68;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-main p{
+    margin-right: 40px;
+}

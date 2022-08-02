@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.div-master {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-leaderboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.h2-leaderboard {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.div-leaderboard {
+  background-color: #e4edf2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 10px;
+  height: 40px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.div-teams-score {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.section-leader {
+  width: 90%;
+  border-bottom: 1px solid #e4edf2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.div-img-team {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-self: center;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  color: #4b5c68;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.sec-div-teams {
+  display: flex;
+  justify-content: flex-end;
+  gap: 44px;
+  padding: 0 20px 0 0;
+}
+
+.points {
+  margin-left: 8px;
+  color: #025feb !important;
+  font-weight: 700 !important;
+}
+
+.sec-div-teams p {
+  width: 15px;
+  color: #606b84;
+  font-weight: 500;
+}
+
+.invisible {
+  display: none;
+}
+
+.match-countries {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.flag-name {
+  width: 53px;
+  height: 37px;
+  margin: 0 20px 0 10px;
+}
+
+.match-countries img {
+  width: 53px;
+  height: 37px;
+}
+
+@media (min-width: 750px) and (max-width: 999px) {
+  .invisible {
+    display: flex;
+  }
+
+  .GD {
+    display: none;
+  }
+
+  .sec-div-teams {
+    gap: 45px;
+    padding: 0px 40px 0 0;
+  }
+
+  .points {
+    margin-left: 0px;
+  }
+
+  .section-1 {
+    justify-content: space-between;
+  }
+
+  .div-leaderboard {
+    justify-content: space-between;
+    padding: 0 32px 0 10px;
+  }
+
+  .match-countries {
+    width: 70%;
+  }
+
+  .div-teams-score {
+    width: 80%;
+  }
+
+  .sec1-dateTime {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: right;
+  }
+}
+
+@media (min-width: 1000px) {
+  .GD {
+    display: none;
+  }
+
+  .invisible {
+    display: flex;
+  }
+
+  .sec1-dateTime {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .div-teams-score {
+    gap: 60px;
+  }
+
+  .sec-div-teams {
+    gap: 62px;
+  }
+
+  .section-1 {
+    justify-content: space-between;
+  }
+
+  .div-leaderboard {
+    justify-content: space-between;
+  }
+
+  .div-teams-score:first-child {
+    margin-left: 176px;
+  }
+}
